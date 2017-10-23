@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>BetaDesign &mdash; Shopping Cart</title>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/dest/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/dest/vendors/colorbox/example3/colorbox.css">
+	<link rel="stylesheet" title="style" href="assets/dest/css/style.css">
+	<link rel="stylesheet" href="assets/dest/css/animate.css">
+	<link rel="stylesheet" title="style" href="assets/dest/css/huong-style.css">
+</head>
+<body>
+	
+
+
+	<div class="inner-header">
+		<div class="container">
+			<div class="pull-left">
+				<h6 class="inner-title">Giỏ hàng của bạn</h6>
+			</div>
+			<div class="pull-right">
+				<div class="beta-breadcrumb font-large">
+					<a href="index.html">Trang chủ</a> / <span>Giỏ hàng</span>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div id="content">
+			
+			<div class="table-responsive">
+				<!-- Shop Products Table -->
+				<table class="shop_table beta-shopping-cart-table" cellspacing="0">
+					<thead>
+						<tr>
+							<th class="product-name">Sản phẩm</th>
+							<th class="product-price">Đơn giá </th>
+							<th class="product-status">Tình trạng</th>
+							<th class="product-quantity">Số lượng</th>
+							<th class="product-subtotal">Thành tiền</th>
+							<th class="product-remove">Xóa</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr class="cart_item">
+							<td class="product-name">
+								<div class="media">
+									<img class="pull-left" src="image/Thịt nhập khẩu/Thịt bò Nhật Bản/55.jpg" alt="">
+									<div class="media-body">
+										<p class="font-large table-title">Thịt thăn nội bò Kobe Nhật Bản A5</p>
+										<p class="table-option">Giá: 14.449.000đ</p>
+									</div>
+								</div>
+							</td>
+
+							<td class="product-price">
+								<span class="amount">14.449.000đ</span>
+							</td>
+
+							<td class="product-status">
+								Còn hàng
+							</td>
+
+							<td class="product-quantity">
+								<select name="product-qty" id="product-qty">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+
+							<td class="product-subtotal">
+								<span class="amount">14.449.000đ</span>
+							</td>
+
+							<td class="product-remove">
+								<a href="#" class="remove" title="Remove this item"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+						<tr class="cart_item">
+							<td class="product-name">
+								<div class="media">
+									<img class="pull-left" src="image/Hải sản nhập khẩu/Hải sản Nhật Bản/100.jpg" alt="">
+									<div class="media-body">
+										<p class="font-large table-title">Cá trích ép trứng Nhật Bản</p>
+										<p class="table-option">Giá: 1.199.000đ</p>
+									</div>
+								</div>
+							</td>
+
+							<td class="product-price">
+								<span class="amount">1.199.000đ</span>
+							</td>
+
+							<td class="product-status">
+								Còn hàng
+							</td>
+
+							<td class="product-quantity">
+								<select name="product-qty" id="product-qty">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+
+							<td class="product-subtotal">
+								<span class="amount">1.199.000đ</span>
+							</td>
+
+							<td class="product-remove">
+								<a href="#" class="remove" title="Remove this item"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+						<tr class="cart_item">
+							<td class="product-name">
+								<div class="media">
+									<img class="pull-left" src="image/Thực phẩm khác/Nước ép trái cây/111.jpg" alt="">
+									<div class="media-body">
+										<p class="font-large table-title">Nước ép hỗn hợp SunQuick</p>
+										<p class="table-option">Giá: 129.000đ</p>
+									</div>
+								</div>
+							</td>
+
+							<td class="product-price">
+								<span class="amount">129.000đ</span>
+							</td>
+
+							<td class="product-status">
+								Còn hàng
+							</td>
+
+							<td class="product-quantity">
+								<select name="product-qty" id="product-qty">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</td>
+
+							<td class="product-subtotal">
+								<span class="amount">129.000đ</span>
+							</td>
+
+							<td class="product-remove">
+								<a href="#" class="remove" title="Remove this item"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+					</tbody>
+
+					<tfoot>
+						<tr>
+							<td colspan="6" class="actions">
+								
+								<button type="submit" class="beta-btn primary" name="update_cart">Update <i class="fa fa-chevron-right"></i></button> 
+								<button type="submit" class="beta-btn primary" name="proceed"><a href="checkout.html">Thanh toán<i class="fa fa-chevron-right"></i></a></button>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+				<!-- End of Shop Table Products -->
+			</div>
+
+
+			<!-- Cart Collaterals -->
+			<div class="cart-collaterals">
+
+				<div class="cart-totals pull-right">
+					<div class="cart-totals-row"><h5 class="cart-total-title">Tổng tiền</h5></div>
+					<div class="cart-totals-row"><span>Tổng phụ:</span> <span>15.777.000đ</span></div>
+					<div class="cart-totals-row"><span>Phí giao hàng:</span> <span>Free</span></div>
+					<div class="cart-totals-row"><span>Thành tiền:</span> <span>15.777.000đ</span></div>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+			<!-- End of Cart Collaterals -->
+			<div class="clearfix"></div>
+
+		</div> <!-- #content -->
+	</div> <!-- .container -->
+
+	<div id="footer" class="color-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="widget">
+						<h4 class="widget-title">Theo dõi chúng tôi </h4>
+							<ul>
+								<a href="https://www.facebook.com" target="_blank"><img src="image/icon/facebook.png" alt="facebook" style="width: 40px;"></a>
+								<a href="https://www.instagram.com/" target="_blank"> <img src="image/icon/instagram.png" alt="instagram" style="width: 40px;"></a>
+								<a href="https://www.twitter.com" target="_blank"> <img src="image/icon/twitter.png" alt="twitter" style="width: 40px;"></a>
+								<a href="https://www.gmail.com" target="_blank"> <img src="image/icon/google.png" alt="gmail" style="width: 40px;"></a>
+								<a href="https://web.skype.com" target="_blank"> <img src="image/icon/skype.png" alt="skype" style="width: 40px;"></a>
+							</ul>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="widget">
+						<h4 class="widget-title">Thông tin</h4>
+						<div>
+							<ul>
+								<li><a href="index.html"><i class="fa fa-chevron-right"></i> Trang chủ</a></li>
+								<li><a href="product_type.html"><i class="fa fa-chevron-right"></i> Danh mục</a></li>
+								<li><a href="news.html"><i class="fa fa-chevron-right"></i> Tin tức</a></li>
+								<li><a href="about.html"><i class="fa fa-chevron-right"></i> Giới thiệu</a></li>
+								<li><a href="contacts.html"><i class="fa fa-chevron-right"></i> Liên hệ</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="widget">
+						<h4 class="widget-title">Liên hệ</h4>
+						<div>
+							<div class="contact-info">
+								<i class="fa fa-map-marker"></i>
+								<p>THỰC PHẨM CAO CẤP GOFOOD</p>
+
+									<p>FBC International Trading Company Limited</p>
+
+									Cs1: Số 413 Thuỵ Khuê, Tây Hồ, Hà Nội<br>
+									02466 863864 - 0898583838<br>
+									Email: contact@gofood.vn<br>
+									8:00- 20:00 tất cả các ngày trong tuần</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- .row -->
+		</div> <!-- .container -->
+	</div> <!-- #footer -->
+	<div class="copyright">
+		<div class="container">
+			<p style="text-align: center;" >Thực Phẩm Sạch GoFood (&copy;) 2017</p>
+			<div class="clearfix"></div>
+		</div> <!-- .container -->
+	</div> <!-- .copyright -->
+	<button onclick="topFunction()" id="myBtn" title="Go to Top"><i class="fa fa-angle-up fa-2x" style="color: #ED6326"></i></button>
+	
+
+	<!-- include js files -->
+	<script src="assets/dest/js/jquery.js"></script>
+	<script src="assets/dest/vendors/jqueryui/jquery-ui-1.10.4.custom.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+	<script src="assets/dest/vendors/bxslider/jquery.bxslider.min.js"></script>
+	<script src="assets/dest/vendors/colorbox/jquery.colorbox-min.js"></script>
+	<script src="assets/dest/vendors/animo/Animo.js"></script>
+	<script src="assets/dest/vendors/dug/dug.js"></script>
+	<script src="assets/dest/js/scripts.min.js"></script>
+	<!--customjs-->
+	<script type="text/javascript">
+    $(function() {
+        // this will get the full URL at the address bar
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $(".main-menu a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest("li").addClass("active");
+				$(this).parents('li').addClass('parent-active');
+            }
+        });
+    });   
+
+
+</script>
+<script>
+	 jQuery(document).ready(function($) {
+                'use strict';
+				
+// color box
+
+//color
+      jQuery('#style-selector').animate({
+      left: '-213px'
+    });
+
+    jQuery('#style-selector a.close').click(function(e){
+      e.preventDefault();
+      var div = jQuery('#style-selector');
+      if (div.css('left') === '-213px') {
+        jQuery('#style-selector').animate({
+          left: '0'
+        });
+        jQuery(this).removeClass('icon-angle-left');
+        jQuery(this).addClass('icon-angle-right');
+      } else {
+        jQuery('#style-selector').animate({
+          left: '-213px'
+        });
+        jQuery(this).removeClass('icon-angle-right');
+        jQuery(this).addClass('icon-angle-left');
+      }
+    });
+				});
+	</script>
+	<!-- Scroll to Top -->
+			<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("myBtn").style.display = "block";
+				} else {
+					document.getElementById("myBtn").style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+</body>
+</html>

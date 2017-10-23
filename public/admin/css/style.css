@@ -1,0 +1,20 @@
+.alert {
+	text-align: center;
+	
+	font-size: 30px;
+}
+
+.alert-danger {
+	color: red;
+}
+
+.alert-danger {
+	color: blue;
+}
+tr th {
+	text-align: center;
+}
+tr td {
+	text-align: center;
+}
+
